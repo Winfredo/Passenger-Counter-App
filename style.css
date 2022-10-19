@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(127, 186, 186);
+    /* background-image: url("wallpapers.jpg"); */
+    /* max-width: 100%;
+    height: auto;
+    width: 100%; */
+    text-align: center;
+    
+}
+
+h2, h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    color: white;
+    border: none;
+   padding: 10px;
+   font-weight: bold;
+   border-radius: 10px;
+    
+
+}
+#increment-btn{
+    background-color: darkred;
+}
