@@ -1,10 +1,21 @@
 body{
     background-color: rgb(127, 186, 186);
-    /* background-image: url("wallpapers.jpg"); */
+    background-image: url("wallpapers.jpg");
     /* max-width: 100%;
     height: auto;
     width: 100%; */
     text-align: center;
+    align-items: center;
+    position: absolute;
+    
+}
+
+.container{
+    position: relative;
+    box-shadow: 5px 5px 5px 5px grey;
+    background: white;
+    text-align: center;
+    align-items: center;
     
 }
 
@@ -16,15 +27,16 @@ h2, h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-button{
+button, .reset-btn{
     color: white;
     border: none;
-   padding: 10px;
+   padding: 16px 50px;
    font-weight: bold;
    border-radius: 10px;
-    
+   background-color: darkred;
 
 }
 #increment-btn{
     background-color: darkred;
 }
+
