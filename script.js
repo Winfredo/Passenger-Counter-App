@@ -1,44 +1,16 @@
-//    document.getElementById("count").innerHTML = 5;
 
-// let count = 0
-// count = count + 1
+let countEl = document.getElementById("count-element")
 
- 
-//  console.log(count)  
-
-
-//  let bonusPoints = 50;
-// bonusPoints = bonusPoints + 50
-
-// console.log(bonusPoints)
-
-// bonusPoints = bonusPoints - 75
-// console.log(bonusPoints)
-
-// bonusPoints = bonusPoints + 45
-// console.log(bonusPoints)
-
-// function countdown(){
-//     console.log(5)
-//     console.log(5)
-//     console.log(5)
-//     console.log(5)
-//     console.log(5)
-// }
-
-// countdown()
-
-function laps(){
+console.log(countEl)
 
 
 
-let lapsCompleted = 0
+let count = 0
 
-lapsCompleted = lapsCompleted + 1;
 
-console.log()
+function increments(){
+    count = count + 1
+    countEl.innerHTML = count
+    console.log(count)
 }
 
-laps()
-laps()
-laps()
