@@ -8,12 +8,13 @@ function increments() {
     countEl.innerHTML = count
     console.log(count)
 }
-let countDel = document.getElementById("reset-btn")
+let nocount = document.getElementById("count-element")
 
 
-function decrements(){
-    let counts = 0
-    countDel.innerHTML = counts
+let counts = 0
+ 
+function decrements() {
+    counts = 0
+    nocount.innerHTML = counts
     console.log(counts)
-
 }
