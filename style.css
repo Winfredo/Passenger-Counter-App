@@ -3,7 +3,7 @@ body{
     background-image: url("wallpapers.jpg");
     max-width: 100%;
     height: auto;
-    width:70%;
+    width:auto;
     text-align: center;
     align-items: center;
     position: absolute;
@@ -14,8 +14,11 @@ body{
     position: relative;
     box-shadow: 5px 5px 5px 5px grey;
     background: white;
-    text-align: center;
-    align-items: center;
+    
+    padding: 20px;
+    border-radius: 19%;
+    
+
     
 }
 
