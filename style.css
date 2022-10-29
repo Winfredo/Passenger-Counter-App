@@ -2,7 +2,7 @@ body{
     background-color: rgb(127, 186, 186);
     background-image: url("wallpapers.jpg");
     max-width: 100%;
-    height: auto;
+    height: 100%;
     width:auto;
     text-align: center;
     align-items: center;
