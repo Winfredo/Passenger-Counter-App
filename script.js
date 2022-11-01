@@ -15,6 +15,8 @@ let counts = 0
  
 function decrements() {
     counts = 0
-    nocount.innerHTML = counts
+    count = 0
+    allcount = counts + count
+    nocount.innerHTML = allcount
     console.log(counts)
 }
