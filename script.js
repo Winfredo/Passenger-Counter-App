@@ -20,3 +20,15 @@ function decrements() {
     nocount.innerHTML = allcount
     console.log(counts)
 }
+
+
+
+
+
+
+
+
+
+
+
+
