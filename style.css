@@ -43,3 +43,13 @@ body{
 #count-element{
     font-size: 25px;
 }
+
+#increment-btn:hover{
+    background-color: green;
+    transition: 0.2s;
+}
+
+#reset-btn:hover{
+    background-color: green;
+    transition: 0.2s;
+}
