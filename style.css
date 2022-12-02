@@ -14,12 +14,25 @@ body{
     height: 210px;
     border: 2px solid red;
     font-size: large;
-    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.container-1{
+    text-align: center;
+}
+
+.entry{
+    
+    background-color: rgb(205, 165, 67);
+    border: 2px solid red;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: bolder;
+    margin-top: 30px;
 }
 
 #increment-btn{
