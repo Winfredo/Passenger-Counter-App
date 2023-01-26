@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
   background-image: url("wallpapers.jpg");
+  background-size: cover;
   display: flex;
   position: relative;
 }

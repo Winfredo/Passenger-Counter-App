@@ -29,7 +29,7 @@ function save(){
     saveEl.innerText += saveStr
     console.log(saveStr)
     countEl.innerText = 0
-    count = 0
+    count = 0 
 
 }
 
