@@ -1,4 +1,9 @@
-let countEl = document.getElementById("count-element")
+let countEl = document.querySelector(".count-element")
+let IncrementBtn = document.querySelector(".increment-btn")
+let ResetBtn = document.querySelector(".reset-btn")
+let SaveBtn = document.querySelector(".save-btn")
+let saveEl = document.querySelector(".save-el")
+let nocount = document.querySelector(".count-element")
 
 
 let count = 0
@@ -10,13 +15,13 @@ function increments()  {
     console.log(count)
 }
 
+ IncrementBtn.addEventListener("click", increments)
 
-let nocount = document.getElementById("count-element")
 
 
 let counts = 0
  
-function decrements() {
+function decrements () {
     counts = 0
     count = 0
     allcount = counts + count 
@@ -24,7 +29,8 @@ function decrements() {
     console.log(counts)
 }
 
-let saveEl = document.getElementById("save-el")
+ResetBtn.addEventListener("click", decrements)
+
 
 function save(){
     let saveStr = count + "-" 
@@ -35,6 +41,7 @@ function save(){
 
 }
 
+SaveBtn.addEventListener("click",save)
 
 
 
