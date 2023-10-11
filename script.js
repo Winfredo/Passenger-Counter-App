@@ -2,7 +2,7 @@ let countEl = document.querySelector(".count-element")
 let IncrementBtn = document.querySelector(".increment-btn")
 let ResetBtn = document.querySelector(".reset-btn")
 let SaveBtn = document.querySelector(".save-btn")
-let saveEl = document.querySelector(".save-el")
+let saveEl = document.getElementById("save-el")
 let nocount = document.querySelector(".count-element")
 
 
@@ -41,7 +41,6 @@ function save(){
 
 }
 
-SaveBtn.addEventListener("click",save)
 
 
 
