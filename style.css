@@ -36,7 +36,7 @@ body {
   margin-top: 30px;
 }
 
-#increment-btn {
+.increment-btn {
   color: white;
   border: none;
   padding: 10px 15px;
@@ -45,7 +45,7 @@ body {
   background-color: darkred;
 }
 
-#reset-btn {
+.reset-btn {
   color: white;
   border: none;
   font-weight: bold;
@@ -54,7 +54,7 @@ body {
   padding: 10px 25px;
 }
 
-#save-btn {
+.save-btn {
   color: white;
   border: none;
   padding: 10px 30px;
@@ -63,25 +63,25 @@ body {
   background-color: darkred;
 }
 
-#count-element {
+.count-element {
   font-size: 25px;
 }
 
-#increment-btn:hover {
+.increment-btn:hover {
   background-color: green;
   transition: 0.2s;
 }
 
-#reset-btn:hover {
+.reset-btn:hover {
   background-color: green;
   transition: 0.2s;
 }
 
-#save-btn:hover {
+.save-btn:hover {
   background-color: green;
   transition: 0.2s;
 }
 
-#count-element{
+.count-element{
     color: rgb(41, 19, 207);
 }
